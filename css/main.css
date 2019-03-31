@@ -9,9 +9,16 @@ html, body {
   height: 100%;
 }
 
-a {
+a, a:visited {
   text-decoration: none;
+  color: #34495e;
 }
+
+a:hover {
+  color: orangered;
+}
+
+
 
 .content {
   min-height: 100%;
@@ -21,7 +28,6 @@ a {
 }
 
 .header__navbar {
-  color: #34495e;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,14 +47,9 @@ a {
   margin-right: 1rem;
 }
 
-.navbar__links li:hover {
-  color: orangered;
-}
-
 .navbar_logo {
   margin-right: 6rem;
 }
-
 
 .footer {
   height: 4rem;
