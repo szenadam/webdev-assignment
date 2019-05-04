@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <title>Kezdőlap</title>
   </head>
   <body>
@@ -12,17 +13,38 @@
       <header>
         <nav class="header__navbar">
           <ul class="navbar__links">
-            <li><a href="index.html">Welcome</a></li>
+            <li><a href="index.html">Kezdőlap</a></li>
             <li><a href="latnivalok.html">Látnivalók</a></li>
             <li><a href="kozlekedes.html">Közlekedés</a></li>
             <li><a href="szallas.html">Szállás</a></li>
             <li><a href="kapcsolat.html">Kapcsolat</a></li>
           </ul>
-          <h1 class="navbar_logo">Logo</h1>
+          <div class="navbar_logo">
+            <img src="assets/icons/around_32.png" alt="" />
+          </div>
         </nav>
       </header>
-      <main>Welcome</main>
-      <footer class="footer">Footer</footer>
+      <main>
+        <h1>Látogasson el Narába!</h1>
+        <video width="640" height="480" controls>
+          <source
+            src="assets/video/An_introduction_to_Nara_City.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </main>
+      <footer class="footer">
+        <ul>
+          <li>Nara Travel Agency</li>
+          <li>Cím: 1234. Budapest, Clark Ádám tér 1.</li>
+          <li>Telefon: <a href="tel:+3611234567">+36 (1) 123-4567</a></li>
+          <li>
+            Email:
+            <a href="mailto:naratravel@agency.hu">naratravel@agency.hu</a>
+          </li>
+          <li>Honlap: <a href="#">Nara Travel Agency</a></li>
+        </ul>
+      </footer>
     </div>
   </body>
 </html>
