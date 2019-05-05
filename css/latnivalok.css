@@ -1,0 +1,16 @@
+section {
+  display: grid;
+  grid-template-areas: 'title tile' 'text image';
+}
+
+section h3 {
+  grid-area: 'title';
+}
+
+section p {
+  grid-area: 'text';
+}
+
+section img {
+  grid-area: 'image';
+}
