@@ -1,7 +1,7 @@
 {
   "name": "webdev-assignment",
   "version": "1.0.0",
-  "description": "",
+  "description": "Webdeveloper 1 Assignment =========================",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/szenadam/webdev-assignment/issues"
   },
-  "homepage": "https://github.com/szenadam/webdev-assignment#readme"
+  "homepage": "https://github.com/szenadam/webdev-assignment#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
 }
