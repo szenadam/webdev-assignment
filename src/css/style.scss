@@ -1,5 +1,5 @@
 * {
-  font-family: Open-sans, sans-serif
+  font-family: Open-sans, sans-serif;
 }
 
 main {
@@ -32,7 +32,24 @@ a {
 }
 
 a:visited {
-  color: #0550ff;;
+  color: #0550ff;
+}
+
+nav.bg-light,
+footer div.bg-light {
+  background-color: #309797 !important;
+}
+
+footer div {
+  color: white;
+}
+
+nav a {
+  color: white !important;
+}
+
+nav a:hover {
+  color: rgba(255, 255, 255, 0.808) !important;
 }
 
 nav a,
