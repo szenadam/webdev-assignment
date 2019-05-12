@@ -28,8 +28,14 @@ main {
 
 a {
   color: #0135b0;
+  text-decoration: underline;
 }
 
 a:visited {
   color: #0550ff;;
+}
+
+nav a,
+footer a {
+  text-decoration: none;
 }
