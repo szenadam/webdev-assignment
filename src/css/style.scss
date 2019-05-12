@@ -40,15 +40,13 @@ table {
   background-size: cover;
 }
 
-td {
+td, caption {
   color: white;
 }
 
-caption {
-  color: white;
+.welcome-text {
+  margin-bottom: 5rem;
 }
-
-
 
 // nav.bg-light,
 // footer div.bg-light {
