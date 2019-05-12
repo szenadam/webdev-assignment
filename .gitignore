@@ -1,4 +1,5 @@
 node_modules/
 *.map
 src/css/style.css
+src/css/print.css
 dist
