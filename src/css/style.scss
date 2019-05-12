@@ -48,22 +48,23 @@ td, caption {
   margin-bottom: 5rem;
 }
 
-// nav.bg-light,
-// footer div.bg-light {
-//   background-color: #309797 !important;
-// }
+.nav-link {
+  color: black !important;
+}
 
-// footer div {
-//   color: white;
-// }
+li.active a {
+  color: #790000 !important;
+}
 
-// nav a {
-//   color: white !important;
-// }
+.bg-light {
+  background-color: #c3e1ff!important;
+}
 
-// nav a:hover {
-//   color: rgba(255, 255, 255, 0.808) !important;
-// }
+.akadalymentes-logo {
+  width: 2rem;
+  height: auto;
+}
+
 
 nav a,
 footer a {
