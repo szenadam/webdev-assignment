@@ -74,7 +74,8 @@ footer a {
 .ugras-a-tartalomra {
   position: absolute;
   top: 0;
-  left: -1000;
+  margin-left: -100px;
+  z-index: 0;
 }
 
 .hidden {
