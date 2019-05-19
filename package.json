@@ -1,7 +1,7 @@
 {
   "name": "webdev-assignment",
   "version": "1.0.0",
-  "description": "Webdeveloper 1 Assignment =========================",
+  "description": "Webdeveloper 1 Assignment",
   "main": "index.js",
   "scripts": {
     "build": "grunt"
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/szenadam/webdev-assignment#readme",
   "directories": {
-    "doc": "docs"
+    "doc": "docs",
+    "src": "source code"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
