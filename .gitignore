@@ -3,4 +3,5 @@ node_modules/
 src/css/style.css
 src/css/print.css
 src/css/akadalymentes.css
+src/css/xhtml_styles.css
 dist
