@@ -6,7 +6,10 @@ module.exports = function(grunt) {
           style: "expanded"
         },
         files: {
-          "src/css/style.css": "src/css/style.scss"
+          "src/css/style.css": "src/css/style.scss",
+          "src/css/akadalymentes.css": "src/css/akadalymentes.scss",
+          "src/css/print.css": "src/css/print.scss",
+          "src/css/xhtml_styles.css": "src/css/xhtml_styles.scss"
         }
       }
     },

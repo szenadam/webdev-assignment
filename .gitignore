@@ -1,5 +1,6 @@
 node_modules/
 *.map
+*.zip
 src/css/style.css
 src/css/print.css
 src/css/akadalymentes.css
