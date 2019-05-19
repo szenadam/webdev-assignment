@@ -26,3 +26,18 @@ th {
 .hidden {
   display: block;
 }
+
+.row {
+  flex-direction: column;
+}
+
+.col-lg-6,
+.col-lg-8,
+.col-lg-9 {
+  max-width: 100%;
+}
+
+::placeholder,
+.form-control {
+  color: yellow !important;
+}
