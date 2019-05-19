@@ -13,11 +13,10 @@ module.exports = function(grunt) {
     copy: {
       main: {
         files: [
-          { expand: true, cwd: "src/", src: ["*.html"], dest: "dist/", filter: "isFile" },
+          { expand: true, cwd: "src/", src: ["*.html", "*.xhtml"], dest: "dist/", filter: "isFile" },
           { expand: true, cwd: "src/", src: ["favicon.ico"], dest: "dist/", filter: "isFile" },
           { expand: true, cwd: "src/", src: ["assets/**"], dest: "dist/" },
-          { expand: true, cwd: "src/", src: ["css/style.css"], dest: "dist/"},
-          { expand: true, cwd: "src/", src: ["css/print.css"], dest: "dist/"},
+          { expand: true, cwd: "src/", src: ["css/*.css"], dest: "dist/"},
           { expand: true, cwd: "src/", src: ["js/**"], dest: "dist/" }
         ]
       }
